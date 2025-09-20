@@ -75,5 +75,22 @@ Linux - `xdg-open [dirname]`
 You can open folders, files and even URLs
 
 ```bash
-  open https://traversymedia.com
+  open https://github.com/nanishat
 ```
+
+## Modifying Files & Directories
+
+| Command                     | Description                                         |
+| --------------------------- | --------------------------------------------------- |
+| mkdir [dirname]             | Make directory                                      |
+| touch [filename]            | Create file                                         |
+| rm [filename]               | Remove file                                         |
+| rm -i [filename]            | Remove directory, but ask before                    |
+| rm -r [dirname]             | Remove directory                                    |
+| rm -rf [dirname]            | Remove directory with contents                      |
+| rm ./\*                     | Remove everything in the current folder             |
+| cp [filename] [dirname]     | Copy file                                           |
+| mv [filename] [dirname]     | Move file                                           |
+| mv [dirname] [dirname]      | Move directory                                      |
+| mv [filename] [filename]    | Rename file or folder                               |
+| mv [filename] [filename] -v | Rename Verbose - print source/destination directory |
