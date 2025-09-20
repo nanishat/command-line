@@ -1,12 +1,5 @@
 
 nanis@na-nishat MINGW64 ~
-$ mk
-mkdir.exe     mkfifo.exe    mkgroup.exe   mknod.exe     mkpasswd.exe  mktemp.exe
-
-nanis@na-nishat MINGW64 ~
-$
-
-nanis@na-nishat MINGW64 ~
 $ ls
  -1.14-windows.xml
  AMDRM_Install.log
@@ -644,7 +637,8 @@ $ ls
 file1.txt  index.html
 
 nanis@na-nishat MINGW64 ~/Downloads/myproject
-$
+$ ^C
+
 nanis@na-nishat MINGW64 ~/Downloads/myproject
 $ ls
 file1.txt  index.html
@@ -765,6 +759,638 @@ $ mv src/file1.txt info.txt
 nanis@na-nishat MINGW64 ~/Downloads/myproject
 $ ls
 info.txt  src/
+
+nanis@na-nishat MINGW64 ~/Downloads/myproject
+$ ^C
+
+nanis@na-nishat MINGW64 ~/Downloads/myproject
+$
+
+nanis@na-nishat MINGW64 ~/Downloads/myproject
+$ ls
+info.txt  src/
+
+nanis@na-nishat MINGW64 ~/Downloads/myproject
+$ ls src
+index.html
+
+nanis@na-nishat MINGW64 ~/Downloads/myproject
+$ open info.txt
+bash: open: command not found
+
+nanis@na-nishat MINGW64 ~/Downloads/myproject
+$ start info.txt
+
+nanis@na-nishat MINGW64 ~/Downloads/myproject
+$ code src/index.html
+
+nanis@na-nishat MINGW64 ~/Downloads/myproject
+$ cat src/index.html
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+
+<body>
+  <h1>Hello World</h1>
+</body>
+
+</html>
+nanis@na-nishat MINGW64 ~/Downloads/myproject
+$ cat > info.txt
+Hello World
+
+nanis@na-nishat MINGW64 ~/Downloads/myproject
+$ cat info.txt
+Hello World
+
+nanis@na-nishat MINGW64 ~/Downloads/myproject
+$ start info.txt
+
+nanis@na-nishat MINGW64 ~/Downloads/myproject
+$ > info.txt
+
+nanis@na-nishat MINGW64 ~/Downloads/myproject
+$ Hello
+bash: Hello: command not found
+
+nanis@na-nishat MINGW64 ~/Downloads/myproject
+$ cat >> info.txt
+World
+
+
+nanis@na-nishat MINGW64 ~/Downloads/myproject
+$ cat info.txt
+World
+
+nanis@na-nishat MINGW64 ~/Downloads/myproject
+$ cat -n
+     1
+nanis@na-nishat MINGW64 ~/Downloads/myproject
+$ cat -n info.txt
+     1  World
+
+nanis@na-nishat MINGW64 ~/Downloads/myproject
+$ cat >> Hello
+
+nanis@na-nishat MINGW64 ~/Downloads/myproject
+$ cat -n info.txt
+     1  World
+
+nanis@na-nishat MINGW64 ~/Downloads/myproject
+$ start info.txt
+
+nanis@na-nishat MINGW64 ~/Downloads/myproject
+$ less info.txt
+
+nanis@na-nishat MINGW64 ~/Downloads/myproject
+$ head info.txt
+Hello 1
+Hello 2
+Hello 3
+Hello 4
+Hello 5
+Hello 6
+Hello 7
+Hello 8
+Hello 9
+Hello 10
+
+nanis@na-nishat MINGW64 ~/Downloads/myproject
+$ head -n 5 info.txt
+Hello 1
+Hello 2
+Hello 3
+Hello 4
+Hello 5
+
+nanis@na-nishat MINGW64 ~/Downloads/myproject
+$ tail
+
+
+nanis@na-nishat MINGW64 ~/Downloads/myproject
+$ tail info.txt
+Hello 12
+Hello 13
+Hello 14
+Hello 15
+Hello 16
+Hello 17
+Hello 18
+Hello 19
+Hello 20
+Hello 21
+nanis@na-nishat MINGW64 ~/Downloads/myproject
+$ tal -n 5 info.txt
+bash: tal: command not found
+
+nanis@na-nishat MINGW64 ~/Downloads/myproject
+$ tail -n 5 info.txt
+Hello 17
+Hello 18
+Hello 19
+Hello 20
+Hello 21
+nanis@na-nishat MINGW64 ~/Downloads/myproject
+$ nano info.txt
+
+nanis@na-nishat MINGW64 ~/Downloads/myproject
+$ less info.txt
+
+nanis@na-nishat MINGW64 ~/Downloads/myproject
+$ echo "Hello World"
+Hello World
+
+nanis@na-nishat MINGW64 ~/Downloads/myproject
+$ echo "Hello World" > info.txt
+
+nanis@na-nishat MINGW64 ~/Downloads/myproject
+$ less info.txt
+
+nanis@na-nishat MINGW64 ~/Downloads/myproject
+$ grep "Hello 22" info.txt
+
+nanis@na-nishat MINGW64 ~/Downloads/myproject
+$ ls
+Hello  info.txt  src/
+
+nanis@na-nishat MINGW64 ~/Downloads/myproject
+$ start info.txt
+
+nanis@na-nishat MINGW64 ~/Downloads/myproject
+$ ls
+Hello  info.txt  src/
+
+nanis@na-nishat MINGW64 ~/Downloads/myproject
+$ mkdir files
+
+nanis@na-nishat MINGW64 ~/Downloads/myproject
+$ cd files
+
+nanis@na-nishat MINGW64 ~/Downloads/myproject/files
+$ touch file-{001..100}.txt
+
+nanis@na-nishat MINGW64 ~/Downloads/myproject/files
+$ ls
+file-001.txt  file-018.txt  file-035.txt  file-052.txt  file-069.txt  file-086.txt
+file-002.txt  file-019.txt  file-036.txt  file-053.txt  file-070.txt  file-087.txt
+file-003.txt  file-020.txt  file-037.txt  file-054.txt  file-071.txt  file-088.txt
+file-004.txt  file-021.txt  file-038.txt  file-055.txt  file-072.txt  file-089.txt
+file-005.txt  file-022.txt  file-039.txt  file-056.txt  file-073.txt  file-090.txt
+file-006.txt  file-023.txt  file-040.txt  file-057.txt  file-074.txt  file-091.txt
+file-007.txt  file-024.txt  file-041.txt  file-058.txt  file-075.txt  file-092.txt
+file-008.txt  file-025.txt  file-042.txt  file-059.txt  file-076.txt  file-093.txt
+file-009.txt  file-026.txt  file-043.txt  file-060.txt  file-077.txt  file-094.txt
+file-010.txt  file-027.txt  file-044.txt  file-061.txt  file-078.txt  file-095.txt
+file-011.txt  file-028.txt  file-045.txt  file-062.txt  file-079.txt  file-096.txt
+file-012.txt  file-029.txt  file-046.txt  file-063.txt  file-080.txt  file-097.txt
+file-013.txt  file-030.txt  file-047.txt  file-064.txt  file-081.txt  file-098.txt
+file-014.txt  file-031.txt  file-048.txt  file-065.txt  file-082.txt  file-099.txt
+file-015.txt  file-032.txt  file-049.txt  file-066.txt  file-083.txt  file-100.txt
+file-016.txt  file-033.txt  file-050.txt  file-067.txt  file-084.txt
+file-017.txt  file-034.txt  file-051.txt  file-068.txt  file-085.txt
+
+nanis@na-nishat MINGW64 ~/Downloads/myproject/files
+$ find . -name "file-004.txt"
+./file-004.txt
+
+nanis@na-nishat MINGW64 ~/Downloads/myproject/files
+$ find . -name "file-00*.txt"
+./file-001.txt
+./file-002.txt
+./file-003.txt
+./file-004.txt
+./file-005.txt
+./file-006.txt
+./file-007.txt
+./file-008.txt
+./file-009.txt
+
+nanis@na-nishat MINGW64 ~/Downloads/myproject/files
+$ find . -name "file-1*.txt"
+./file-100.txt
+
+nanis@na-nishat MINGW64 ~/Downloads/myproject/files
+$ file -empty
+Usage: file [-bcCdEhikLlNnprsSvzZ0] [--apple] [--extension] [--mime-encoding]
+            [--mime-type] [-e <testname>] [-F <separator>]  [-f <namefile>]
+            [-m <magicfiles>] [-P <parameter=value>] [--exclude-quiet]
+            <file> ...
+       file -C [-m <magicfiles>]
+       file [--help]
+
+nanis@na-nishat MINGW64 ~/Downloads/myproject/files
+$ find -empty
+./file-001.txt
+./file-002.txt
+./file-003.txt
+./file-004.txt
+./file-005.txt
+./file-006.txt
+./file-007.txt
+./file-008.txt
+./file-009.txt
+./file-010.txt
+./file-011.txt
+./file-012.txt
+./file-013.txt
+./file-014.txt
+./file-015.txt
+./file-016.txt
+./file-017.txt
+./file-018.txt
+./file-019.txt
+./file-020.txt
+./file-021.txt
+./file-022.txt
+./file-023.txt
+./file-024.txt
+./file-025.txt
+./file-026.txt
+./file-027.txt
+./file-028.txt
+./file-029.txt
+./file-030.txt
+./file-031.txt
+./file-032.txt
+./file-033.txt
+./file-034.txt
+./file-035.txt
+./file-036.txt
+./file-037.txt
+./file-038.txt
+./file-039.txt
+./file-040.txt
+./file-041.txt
+./file-042.txt
+./file-043.txt
+./file-044.txt
+./file-045.txt
+./file-046.txt
+./file-047.txt
+./file-048.txt
+./file-049.txt
+./file-050.txt
+./file-051.txt
+./file-052.txt
+./file-053.txt
+./file-054.txt
+./file-055.txt
+./file-056.txt
+./file-057.txt
+./file-058.txt
+./file-059.txt
+./file-060.txt
+./file-061.txt
+./file-062.txt
+./file-063.txt
+./file-064.txt
+./file-065.txt
+./file-066.txt
+./file-067.txt
+./file-068.txt
+./file-069.txt
+./file-070.txt
+./file-071.txt
+./file-072.txt
+./file-073.txt
+./file-074.txt
+./file-075.txt
+./file-076.txt
+./file-077.txt
+./file-078.txt
+./file-079.txt
+./file-080.txt
+./file-081.txt
+./file-082.txt
+./file-083.txt
+./file-084.txt
+./file-085.txt
+./file-086.txt
+./file-087.txt
+./file-088.txt
+./file-089.txt
+./file-090.txt
+./file-091.txt
+./file-092.txt
+./file-093.txt
+./file-094.txt
+./file-095.txt
+./file-096.txt
+./file-097.txt
+./file-098.txt
+./file-099.txt
+./file-100.txt
+
+nanis@na-nishat MINGW64 ~/Downloads/myproject/files
+$ echo "Hello World" >> file-033.txt
+
+nanis@na-nishat MINGW64 ~/Downloads/myproject/files
+$   find . -name "file-*" -delete
+bash: $'\302\226': command not found
+
+nanis@na-nishat MINGW64 ~/Downloads/myproject/files
+$ ls
+file-001.txt  file-018.txt  file-035.txt  file-052.txt  file-069.txt  file-086.txt
+file-002.txt  file-019.txt  file-036.txt  file-053.txt  file-070.txt  file-087.txt
+file-003.txt  file-020.txt  file-037.txt  file-054.txt  file-071.txt  file-088.txt
+file-004.txt  file-021.txt  file-038.txt  file-055.txt  file-072.txt  file-089.txt
+file-005.txt  file-022.txt  file-039.txt  file-056.txt  file-073.txt  file-090.txt
+file-006.txt  file-023.txt  file-040.txt  file-057.txt  file-074.txt  file-091.txt
+file-007.txt  file-024.txt  file-041.txt  file-058.txt  file-075.txt  file-092.txt
+file-008.txt  file-025.txt  file-042.txt  file-059.txt  file-076.txt  file-093.txt
+file-009.txt  file-026.txt  file-043.txt  file-060.txt  file-077.txt  file-094.txt
+file-010.txt  file-027.txt  file-044.txt  file-061.txt  file-078.txt  file-095.txt
+file-011.txt  file-028.txt  file-045.txt  file-062.txt  file-079.txt  file-096.txt
+file-012.txt  file-029.txt  file-046.txt  file-063.txt  file-080.txt  file-097.txt
+file-013.txt  file-030.txt  file-047.txt  file-064.txt  file-081.txt  file-098.txt
+file-014.txt  file-031.txt  file-048.txt  file-065.txt  file-082.txt  file-099.txt
+file-015.txt  file-032.txt  file-049.txt  file-066.txt  file-083.txt  file-100.txt
+file-016.txt  file-033.txt  file-050.txt  file-067.txt  file-084.txt
+file-017.txt  file-034.txt  file-051.txt  file-068.txt  file-085.txt
+
+nanis@na-nishat MINGW64 ~/Downloads/myproject/files
+$  find . -name "file-*" -delete
+bash: $'\302\226': command not found
+
+nanis@na-nishat MINGW64 ~/Downloads/myproject/files
+$ rm -f file-*
+
+nanis@na-nishat MINGW64 ~/Downloads/myproject/files
+$ ls
+
+nanis@na-nishat MINGW64 ~/Downloads/myproject/files
+$ touch file-{001..010}.txt
+
+nanis@na-nishat MINGW64 ~/Downloads/myproject/files
+$ ls
+file-001.txt  file-003.txt  file-005.txt  file-007.txt  file-009.txt
+file-002.txt  file-004.txt  file-006.txt  file-008.txt  file-010.txt
+
+nanis@na-nishat MINGW64 ~/Downloads/myproject/files
+$ find . -name "file-*" > output.txt
+
+nanis@na-nishat MINGW64 ~/Downloads/myproject/files
+$ cat output.txt
+./file-001.txt
+./file-002.txt
+./file-003.txt
+./file-004.txt
+./file-005.txt
+./file-006.txt
+./file-007.txt
+./file-008.txt
+./file-009.txt
+./file-010.txt
+
+nanis@na-nishat MINGW64 ~/Downloads/myproject/files
+$ cd ..
+
+nanis@na-nishat MINGW64 ~/Downloads/myproject
+$ rm -r files
+
+nanis@na-nishat MINGW64 ~/Downloads/myproject
+$ ln -s ~/Downloads dlds
+ln: failed to create symbolic link 'dlds' -> '/c/Users/nanis/Downloads': File name too long
+
+nanis@na-nishat MINGW64 ~/Downloads/myproject
+$ ls
+Hello  dlds/  info.txt  src/
+
+nanis@na-nishat MINGW64 ~/Downloads/myproject
+$ cd dlds
+
+nanis@na-nishat MINGW64 ~/Downloads/myproject/dlds
+$ ls
+ 491916671_1122496453252441_4055439614209400406_n.jpg
+ AQN2MNzAg2x39J0eUyUHHexE9AaGPtHf9AITfPy7CUfLPKK9qNzQCWeibTpx8_-MI-hHWTIlGZoT6Mz-RN2xoDGq.mp4
+ Compressed/
+'Did you know this Job Search TrickWant to be the first person to apply for a job. Try this trick and you can find tons of new job postings with no other applicants.Enjoy!.mp4'
+ Documents/
+ Music/
+ desktop.ini
+ myproject/
+
+nanis@na-nishat MINGW64 ~/Downloads/myproject/dlds
+$ cd ..
+
+nanis@na-nishat MINGW64 ~/Downloads/myproject
+$ rm dlds
+rm: cannot remove 'dlds': Is a directory
+
+nanis@na-nishat MINGW64 ~/Downloads/myproject
+$ rm -f dlds/
+rm: cannot remove 'dlds/': Is a directory
+
+nanis@na-nishat MINGW64 ~/Downloads/myproject
+$ rm -rf dlds/
+
+nanis@na-nishat MINGW64 ~/Downloads/myproject
+$ ls
+Hello  info.txt  src/
+
+nanis@na-nishat MINGW64 ~/Downloads/myproject
+$ tar -czvf source.tar.gz src
+src/
+src/index.html
+
+nanis@na-nishat MINGW64 ~/Downloads/myproject
+$ ls
+Hello  info.txt  source.tar.gz  src/
+
+nanis@na-nishat MINGW64 ~/Downloads/myproject
+$ tar -tzvf source.tar.gz
+drwxr-xr-x nanis/197609      0 2025-09-20 21:23 src/
+-rw-r--r-- nanis/197609    233 2025-09-20 21:30 src/index.html
+
+nanis@na-nishat MINGW64 ~/Downloads/myproject
+$ mkdir test
+
+nanis@na-nishat MINGW64 ~/Downloads/myproject
+$ cd test
+
+nanis@na-nishat MINGW64 ~/Downloads/myproject/test
+$ tar -xzvf ../source.tar.gz
+src/
+src/index.html
+
+nanis@na-nishat MINGW64 ~/Downloads/myproject/test
+$ ls
+src/
+
+nanis@na-nishat MINGW64 ~/Downloads/myproject/test
+$ cd ..
+
+nanis@na-nishat MINGW64 ~/Downloads/myproject
+$ rm -r test
+
+nanis@na-nishat MINGW64 ~/Downloads/myproject
+$ history
+    1  gexit
+    2  exit
+    3  ls
+    4  man ls
+    5  ls --help
+    6  q
+    7  whoami
+    8  date
+    9  pwd
+   10  ls
+   11  ls Downloads
+   12  ls -a
+   13  ls -l
+   14  ls -a -l
+   15  ls -al
+   16  ls -ra
+   17  cd
+   18  cd Downloads
+   19  ls
+   20  cd ..
+   21  cd /
+   22  ls
+   23  cd
+   24  cd -
+   25  cd
+   26  start Downloads
+   27  cd Downloads
+   28  mkdir myproject
+   29  cd myproject
+   30  ls
+   31  touch index.html
+   32  ls
+   33  touch file1.txt file2.txt file3.txt
+   34  ls
+   35  rm file3.txt
+   36  ls
+   37  rm -i file2.txt
+   38  ls
+   39  makedir dir1
+   40  ls
+   41  mkdir dir1
+   42  ls
+   43  rm dir1
+   44  rm -r dir1
+   45  ls
+   46  mkdir dir1
+   47  ls
+   48  rm -rf dir1
+   49  ls
+   50  ls
+   51  mkdir source
+   52  ls
+   53  cp file1.txt source/file1.txt
+   54  ls
+   55  cd source
+   56  ls
+   57  cd --
+   58  cd Downloads
+   59  cd myproject
+   60  ls
+   61  rm file1.txt
+   62  ls
+   63  mv index.html source/index.html
+   64  ls
+   65  ls source
+   66  mv source src
+   67  ls
+   68  ls src
+   69  ls
+   70  cd src
+   71  ls
+   72  mv file1.txt myproject/file1.txt
+   73  cd.
+   74  cd .
+   75  cd myproject
+   76  cd -
+   77  cd
+   78  cd Downloads
+   79  cd myproject
+   80  ls
+   81  ls src
+   82  mv src/file1.txt info.txt
+   83  ls
+   84  ls
+   85  ls src
+   86  open info.txt
+   87  start info.txt
+   88  code src/index.html
+   89  cat src/index.html
+   90  cat > info.txt
+   91  cat info.txt
+   92  start info.txt
+   93  > info.txt
+   94  Hello
+   95  cat >> info.txt
+   96  cat info.txt
+   97  cat -n
+   98  cat -n info.txt
+   99  cat >> Hello
+  100  cat -n info.txt
+  101  start info.txt
+  102  less info.txt
+  103  head info.txt
+  104  head -n 5 info.txt
+  105  tail
+  106  tail info.txt
+  107  tal -n 5 info.txt
+  108  tail -n 5 info.txt
+  109  nano info.txt
+  110  less info.txt
+  111  echo "Hello World"
+  112  echo "Hello World" > info.txt
+  113  less info.txt
+  114  grep "Hello 22" info.txt
+  115  ls
+  116  start info.txt
+  117  ls
+  118  mkdir files
+  119  cd files
+  120  touch file-{001..100}.txt
+  121  ls
+  122  find . -name "file-004.txt"
+  123  find . -name "file-00*.txt"
+  124  find . -name "file-1*.txt"
+  125  file -empty
+  126  find -empty
+  127  echo "Hello World" >> file-033.txt
+  128   find . -name "file-*" -delete
+  129  ls
+  130   find . -name "file-*" -delete
+  131  rm -f file-*
+  132  ls
+  133  touch file-{001..010}.txt
+  134  ls
+  135  find . -name "file-*" > output.txt
+  136  cat output.txt
+  137  cd ..
+  138  rm -r files
+  139  ln -s ~/Downloads dlds
+  140  ls
+  141  cd dlds
+  142  ls
+  143  cd ..
+  144  rm dlds
+  145  rm -f dlds/
+  146  rm -rf dlds/
+  147  ls
+  148  tar -czvf source.tar.gz src
+  149  ls
+  150  tar -tzvf source.tar.gz
+  151  mkdir test
+  152  cd test
+  153  tar -xzvf ../source.tar.gz
+  154  ls
+  155  cd ..
+  156  rm -r test
+  157  history
+
+nanis@na-nishat MINGW64 ~/Downloads/myproject
+$ !151
+mkdir test
 
 nanis@na-nishat MINGW64 ~/Downloads/myproject
 $
