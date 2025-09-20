@@ -1,0 +1,14 @@
+Q: Why to use the command line / terminal?
+-> Greater Control
+-> Speed & Efficiency
+-> Access Remote Servers
+-> Command Line Tools
+
+
+Q: Terminal vs Command Line vs Shell
+
+Terminal = Tool that you use to type and execute commands. Used to be hardware, now we use "terminal emulator" software.
+
+Command Line = The interface of the terminal. Windows often calls their terminal program the "command line" or "cmd". The 2 terms are used interchangeably.
+
+The Shell = The program that the terminal runs. The "OS" of the terminal.
